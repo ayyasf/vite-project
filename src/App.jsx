@@ -19,9 +19,9 @@ function App() {
     <SearchContext.Provider value={{searchValue , setSearchValue , theme, setTheme}}>
         <div className={`font-inter ${theme? "dark":"" }`}>
         <Routes>
-        <Route path="/" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/items" element={<Items />} >
+          <Route path="/" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/items" element={<Items />} >
             <Route path="/items/favourites" element={<Favourites />} />
             <Route path="/items/order" element={<Orders />} />
             <Route path="" element={<ListItems />} />

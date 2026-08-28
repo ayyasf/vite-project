@@ -69,7 +69,7 @@ useEffect(() => {
         <div className="text-center mt-4">
             <p className="text-gray-600  dark:text-gray-50">
             Don't have an account?
-            <Link to="/" className="text-blue-500 hover:underline ml-1">
+            <Link to="/register" className="text-blue-500 hover:underline ml-1">
                     Create Account
             </Link>
             </p>
